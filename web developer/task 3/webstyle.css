@@ -1,0 +1,24 @@
+.container{
+    font-style: italic;
+}
+.add h2{
+  color: white;
+}
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white(0, 0, 0);
+  padding: 10px;
+  margin-bottom: 10px;
+  color:black;
+}
+
+.delete-button {
+  color: red;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  color: darkred;
+}
